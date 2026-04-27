@@ -30,3 +30,20 @@ console.log(typeof arr);
 //++++++++++++++++++++++++++ Memory ++++++++++++++++++++++++++//
 
 //Stack (Primitive), Heap (Non Primitive)
+
+let myYoutubename="tryanderrorcom"
+let anothername=myYoutubename
+anothername="mrgamer"
+console.log(myYoutubename)
+console.log(anothername)
+//in stack we are actually getting the copy of org but in heap we are getting direct ref 
+
+let userOne={
+    email:"tryanderror@gmail.com",
+    upi:"tryanderror@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="sagar@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
