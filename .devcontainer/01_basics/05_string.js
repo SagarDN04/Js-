@@ -2,7 +2,7 @@ const name="sagar"
 const repoCount=50
 //console.log(name+repoCount+"values")    old method 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
-const gameName = new String('SagarDn')
+const gameName = new String('Sagar-D-n')
 console.log(gameName[0])
 console.log(gameName.length)
 console.log(gameName.toUpperCase())
@@ -18,3 +18,9 @@ console.log(anotherName);
 const demoStr="   SDN   "
 console.log(demoStr);
 console.log(demoStr.trim());// it trim the unnecessary space 
+
+const url="www.geekforgeeks%44.com"
+console.log(url.replace('%44','-'))
+console.log(url.includes('geek'))
+
+console.log(gameName.split('-'))
